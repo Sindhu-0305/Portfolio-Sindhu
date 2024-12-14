@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sindhu's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- googleFonts-poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   
+</head>
+<body>
+    <!-- header section -->
+    <header class="header">
+        <a href="#" class="logo">SINDHU</a>
+        <i class='bx bx-menu' id="menu-icon"></i>       
+         <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Journey</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+    </header>
+<!-- header section -->
+
+<!-- home section -->
+<section class="home" id="home">
+   <div class="home-content">
+    <h3>Hello, It's me</h3>
+    <h1>Sindhu</h1>
+    <h3>And I'm adept in <span class="multiple-text">Fullstack Development</span></h3>
+    <!-- <p></p> -->
+      <div class="social-media">
+        <a href="https://github.com/Sindhu-0305"><i class='bx bxl-github'></i></a>
+        <a href= "https://linkedin.com/in/sindhu-s-6472a326a"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100084587507885&mibextid=ZbWKwL"><i class='bx bxl-facebook-circle'></i></a>
+
+      </div>
+      <a href="717821P250-SINDHU.pdf" download class="btn">Download CV</a>
+   </div>
+   <div class="home-img">
+    <img src="photo.jpg" alt="">
+   </div>
+</section>
+<!-- home section -->
+
+<!-- about section -->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="photo.jpg">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <!-- <h3>Frontend Developer</h3> -->
+        <p id="main-content">A Dynamic Computer Science Student with the passion to make meaningful contributions to the ever-evolving landscape of the tech industry. 
+            With a strong foundation in Java, MySQL, Web Tech, DSA and a passion for problem-solving, 
+            I envision myself in a role where I can not only utilize my technical skills but also cultivate 
+            an environment that encourages continuous learning and creativity. 
+            I am committed to staying abreast of emerging technologies and trends, 
+            and I am eager to collaborate with like-minded individuals to drive innovation and progress within the field.
+         </p>
+         <!-- <a href="#" class="btn" onclick="togglecontent()">Read More</a> -->
+            <p id="additional-content" style="display: none;">
+              My journey in the tech industry is not just about personal growth and achievement but also about making a positive impact on the larger community. I am excited about the endless possibilities that lie ahead and am eager to embark on this journey of continuous learning, exploration, and innovation where I can apply my skills to real-world challenges.
+
+            </p>
+            <button onclick="toggleContent()" id="show-more-btn" class="btn">Read More</button>
+        <button onclick="toggleContent()" id="show-less-btn" class="btn" style="display: none;"><i class='bx bxs-left-arrow'></i></button>
+    
+
+
+       </div>
+    
+</section>
+
+<!-- about section -->
+
+
+<!-- education section -->
+<section class="education" id="education">
+    <h2 class="heading">My <span>Journey</span></h2>
+    <div  class="education-row">
+        <div class="education-col">
+            <h3 class="title">Education</h3>
+            <div class="education-box">
+                <div class="education-content">
+                    <div class="content">
+                    <div class="year"><i class="bx bxs-calendar"></i>2021 - 2025</div>
+                    <h3>Bachelor of Engineering </h3>
+                    <p>Karpagam College of Enginnering</p>
+                    <p>CGPA: 8.15*</p>
+                    </div>
+                </div>
+            
+            <div class="education-content">
+                <div class="content">
+                <div class="year"><i class="bx bxs-calendar"></i>2020 - 2021</div>
+                <h3>Higher Secondary School Certificate </h3>
+                <p>SSM Academy (CBSE)</p>
+                <p>Percentage: 91%</p>
+                </div>
+            </div>
+        
+        <div class="education-content">
+            <div class="content">
+            <div class="year"><i class="bx bxs-calendar"></i>2018 - 2019</div>
+            <h3>Secondary School Leaving Certificate</h3>
+            <p>SSM Academy (CBSE)</p>
+            <p>Percentage: 94%</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="education-col">
+        <h3 class="title">Achievements</h3>
+        <div class="education-box">
+            <div class="education-content">
+                <div class="content">
+                <h3>NPTEL - Data Structures and Algorithms using JAVA</h3>
+                <p>Ranked Elite+Silver in a NPTEL course that focuses on
+                    Data Structure and Algorithms using JAVA.</p>
+                </div>
+            </div>
+        
+        <div class="education-content">
+            <div class="content">
+            <h3>Problem-Solving (Basic)</h3>
+            <p>Successfully cleared the assessment for the skill Problem-Solving in HackerRank</p>
+            </div>
+        </div>
+        <div class="education-content">
+            <div class="content">
+            <h3>Introduction to Cybersecurity</h3>
+            <p>Offered for completing the CISCO Networking Academy's, Introduction to Cybersecurity course.</p>
+            </div>
+        </div>
+    <div class="education-content">
+        <div class="content">
+        <h3>LeetCode</h3>
+        <p>Solved over 250+ LeetCode problems, a way medium
+            and hard problems to level up advanced problem-solving
+            abilities .</p>
+        </div>
+    </div>
+   
+    </div>
+    </div>
+    </div>
+    
+    
+    </section>
+    
+<!-- education section -->
+
+
+
+<!-- skill section -->
+<section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+    <div class="skills-row">
+        <div class="skills-col">
+            <!-- <h3 class="title">Coding Skills</h3> -->
+            <div class="skills-box">
+                <div class="skills-content">
+                    <div class="progress">
+                        <h3>JAVA<span></span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>MySQL<span></span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>Object Oriented Programming<span></span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>HTML5<span></span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>CSS3<span></span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>JavaScript<span></span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>Data Structures and Algorithms<span></span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                  
+                    
+
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+<!-- skill section -->
+
+<!-- service section -->
+<!-- <section class="service" id="service">
+    <h2 class="heading">My <span>Services</span></h2>
+    <div class="service-container">
+        <div class="service-box">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Development</h3>
+            <p>Crafting bespoke websites that blend creativity with functionality. From custom designs to responsive layouts, ensuring an exceptional user experience. Specializing in performance optimization and seamless integration of content management systems. Your digital presence, expertly crafted.
+         </p>
+        </div>
+        <div class="service-box">
+            <i class="bx bx-code"></i>
+            <h3>PWA Development</h3>
+            <p>Elevating web experiences through Progressive Web App (PWA) development. Seamlessly blending web and app functionalities for enhanced user engagement. Specializing in offline capabilities and lightning-fast performance. Empowering your digital presence with cutting-edge PWA solutions.
+         </p>
+        </div>
+        <div class="service-box">
+            <i class="bx bxs-paint"></i>
+            <h3>UI/UX Design</h3>
+             <p>Crafting captivating user interfaces (UI) and seamless user experiences (UX). Elevating digital interactions through intuitive design principles. Specializing in user research, wireframing, prototyping, and visual design. Your digital journey, beautifully designed for optimal engagement.
+             </p>    
+        </div>
+
+    </div>
+
+</section> -->
+<!-- service section -->
+
+<!-- portfolio section -->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">My <span>Projects</span></h2>
+    <br><br>
+    <br>
+    <br>
+    <br><br>
+    <div class="portfolio-container">
+        <div class="portfolio-box" style="background-image: url(img2.png);">
+            <!-- <img src="images/img1.png" alt=""> -->
+            <div class="portfolio-layer">
+                <h4>Listify</h4>
+                <p>Listify, an Progressive Web App (PWA) built with JavaScript and
+                    Firebase integration, offers a seamless experience for users across devices along with
+                    real-time database and authentication capabilities.</p>
+               <a href="https://add-to-cart-sindhu.netlify.app/"><i class="bx bx-link-external"></i></a>
+                </div>
+        </div>
+        <div class="portfolio-box" style="background-image: url(img5.png);">
+            <div class="portfolio-layer">
+                <h4>Flight Reservation Management System</h4>
+                <p>The system allows users to book and cancel flight tickets and provides admin panel for managing flight avalaibality and cancellations. It uses Java for the backend, JDBC for database connectivity and MySQL to store flight and booking details.</p>
+                <!-- <a href="https://sindhu-0305.github.io/"></a> -->
+            </div>
+        </div>
+        <div class="portfolio-box" style="background-image: url(img7.png);">
+            <!-- <img src="images/img2.png" alt=""> -->
+            <div class="portfolio-layer">
+                <h4>Software Defect Prediction using Deep Learning</h4>
+                <p>The goal is to improve defect prediction accuracy and ultimately enhance software quality by identifying and addressing potential defects early in the development process by using techniques like LTR.</p>
+               <!-- <a href="https://sindhu-0305.github.io/"></a> -->
+                </div>
+        </div>
+        <!-- <div class="portfolio-box" style="background-image: url(images/img4.png);">
+            <div class="portfolio-layer">
+                <h4>QR Code Generator</h4>
+                <p>Developed a QR code generator web application utilizing HTML, CSS, JavaScript, and API integration. The project allowed users to generate QR codes for various purposes such as URL redirection, contact information, and text messages. </p>
+               <a href="https://sindhu-0305.github.io/QRCode-Generator/"><i class="bx bx-link-external"></i></a>
+                </div>
+        </div>
+    
+        <div class="portfolio-box" style="background-image: url(images/img6.png);">
+            <div class="portfolio-layer">
+                <h4>To-Do List</h4>
+                <p>Developed a feature-rich to-do list web application using HTML, CSS, and JavaScript, enabling users to organize tasks efficiently. Utilized local storage to store tasks locally within the user's browser, ensuring data persistence across sessions.
+</p>
+                    <a href="https://sindhu-0305.github.io/ToDo-List/"><i class="bx bx-link-external"></i></a>
+                </div>
+        </div> -->
+    </div>
+
+
+
+
+</section>
+
+
+<!-- portfolio section -->
+
+<!-- contact section -->
+<!-- link:https://github.com/jamiewilson/form-to-google-sheets -->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <form action="#" name="submit-to-google-sheet">
+        <div class="input-box">
+            <input type="text" name="Name" placeholder="Your Name">
+            <input type="email" name="Email" placeholder="Your Email">
+        </div>
+        <div class="input-box">
+            <input type="text" name="Mobile Number" placeholder="Mobile Number">
+            <input type="text" name="Subject" placeholder="Email Subject">
+        </div>
+        <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+<span id="msg"></span>
+</section>
+
+
+
+<!-- contact section -->
+
+<!--footer section-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>CopyRight © Sindhu </p>
+    </div>
+    <div class="footer-icon">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+</footer>
+
+<!--footer section-->
+
+<!--scroll reveal-->
+<!-- link:https://scrollrevealjs.org/ -->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!--scroll reveal-->
+
+
+<!-- typed js -->
+<!-- link:www.mattboldt.com/demos/typed-js/ -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<!-- typed js -->
+
+<script src="script.js"></script>
+</body>
+</html>
